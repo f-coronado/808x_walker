@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(808x_walker)
+project(walker_808x)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -10,6 +10,30 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+#find_package(walker_808x REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(gazebo_msgs REQUIRED)
+
+
+add_executable(walker src/walk_algorithm.cpp)
+ament_target_dependencies(walker
+  geometry_msgs
+  rclcpp
+  sensor_msgs
+)
+
+install(TARGETS
+  walker
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+#rosidl_target_interfaces(walker
+#${PROJECT_NAME} "rosidl_typesupport_cpp"
+#)
+
+install (DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -22,4 +46,5 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+#ament_export_dependencies(rosidl_default_runtime)
 ament_package()

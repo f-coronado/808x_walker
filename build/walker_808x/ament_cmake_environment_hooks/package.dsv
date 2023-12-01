@@ -1,0 +1,4 @@
+source;share/walker_808x/local_setup.bash
+source;share/walker_808x/local_setup.dsv
+source;share/walker_808x/local_setup.sh
+source;share/walker_808x/local_setup.zsh

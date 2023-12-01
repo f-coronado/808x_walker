@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (walker_808x) JobQueued: {'identifier': 'walker_808x', 'dependencies': OrderedDict()}
+[0.000157] (walker_808x) JobStarted: {'identifier': 'walker_808x'}
+[0.100056] (-) TimerEvent: {}
+[0.201152] (-) TimerEvent: {}
+[0.301479] (-) TimerEvent: {}
+[0.350762] (walker_808x) JobProgress: {'identifier': 'walker_808x', 'progress': 'cmake'}
+[0.351041] (walker_808x) Command: {'cmd': ['/usr/bin/cmake', '/home/fabrizzio/ros2_ws/src/walker_808x', '-DCMAKE_INSTALL_PREFIX=/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x'], 'cwd': '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fabrizzio'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib:/home/fabrizzio/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/fabrizzio'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/146/usr/share/code/code'), ('MANAGERPID', '1821'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3453'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'fabrizzio'), ('JOURNAL_STREAM', '8:53375'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/fabrizzio/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fabrizzio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/fabrizzio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo:@/tmp/.ICE-unix/2035,unix/lenovo:/tmp/.ICE-unix/2035'), ('INVOCATION_ID', 'fb73c1fc12f7492b8bfd4d450690f6da'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d89dba796.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages:/home/fabrizzio/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/galactic/lib/python3.8/site-packages::/usr/lib/python3/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/gazebo_dev:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic:/home/fabrizzio/catkin_ws/devel')]), 'shell': False}
+[0.401666] (-) TimerEvent: {}
+[0.427165] (walker_808x) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501764] (-) TimerEvent: {}
+[0.505853] (walker_808x) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.511608] (walker_808x) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.598519] (walker_808x) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.599493] (walker_808x) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601860] (-) TimerEvent: {}
+[0.688219] (walker_808x) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.701378] (walker_808x) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.701884] (walker_808x) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.702019] (-) TimerEvent: {}
+[0.704904] (walker_808x) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.802142] (-) TimerEvent: {}
+[0.803493] (walker_808x) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.804679] (walker_808x) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902301] (-) TimerEvent: {}
+[0.904061] (walker_808x) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.917495] (walker_808x) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.918401] (walker_808x) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.922342] (walker_808x) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.958900] (walker_808x) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.959095] (walker_808x) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.002467] (-) TimerEvent: {}
+[1.064798] (walker_808x) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.102605] (-) TimerEvent: {}
+[1.124992] (walker_808x) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.133518] (walker_808x) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.202727] (-) TimerEvent: {}
+[1.244899] (walker_808x) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.280850] (walker_808x) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.302815] (-) TimerEvent: {}
+[1.370968] (walker_808x) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402905] (-) TimerEvent: {}
+[1.442232] (walker_808x) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.445738] (walker_808x) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.466567] (walker_808x) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.467811] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.503066] (-) TimerEvent: {}
+[1.555113] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.555444] (walker_808x) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.603249] (-) TimerEvent: {}
+[1.650656] (walker_808x) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.651202] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.703391] (-) TimerEvent: {}
+[1.731857] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.732106] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.803488] (-) TimerEvent: {}
+[1.828696] (walker_808x) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.830189] (walker_808x) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903632] (-) TimerEvent: {}
+[2.003962] (-) TimerEvent: {}
+[2.006211] (walker_808x) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[2.104105] (-) TimerEvent: {}
+[2.139711] (walker_808x) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.155129] (walker_808x) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.204242] (-) TimerEvent: {}
+[2.243619] (walker_808x) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.254174] (walker_808x) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.254492] (walker_808x) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.254573] (walker_808x) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.264426] (walker_808x) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.264538] (walker_808x) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.266452] (walker_808x) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.269392] (walker_808x) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.271095] (walker_808x) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.280959] (walker_808x) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.281054] (walker_808x) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.282662] (walker_808x) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.286554] (walker_808x) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.295537] (walker_808x) StdoutLine: {'line': b'-- Generating done\n'}
+[2.297262] (walker_808x) StdoutLine: {'line': b'-- Build files have been written to: /home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x\n'}
+[2.304394] (-) TimerEvent: {}
+[2.306164] (walker_808x) CommandEnded: {'returncode': 0}
+[2.307212] (walker_808x) JobProgress: {'identifier': 'walker_808x', 'progress': 'build'}
+[2.309620] (walker_808x) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x', '--', '-j8', '-l8'], 'cwd': '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fabrizzio'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib:/home/fabrizzio/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/fabrizzio'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/146/usr/share/code/code'), ('MANAGERPID', '1821'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3453'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'fabrizzio'), ('JOURNAL_STREAM', '8:53375'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/fabrizzio/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fabrizzio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/fabrizzio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo:@/tmp/.ICE-unix/2035,unix/lenovo:/tmp/.ICE-unix/2035'), ('INVOCATION_ID', 'fb73c1fc12f7492b8bfd4d450690f6da'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d89dba796.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages:/home/fabrizzio/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/galactic/lib/python3.8/site-packages::/usr/lib/python3/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/gazebo_dev:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic:/home/fabrizzio/catkin_ws/devel')]), 'shell': False}
+[2.366192] (walker_808x) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target walker\x1b[0m\n'}
+[2.404512] (-) TimerEvent: {}
+[2.414711] (walker_808x) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/walker.dir/src/walk_algorithm.cpp.o\x1b[0m\n'}
+[2.504613] (-) TimerEvent: {}
+[2.604975] (-) TimerEvent: {}
+[2.705299] (-) TimerEvent: {}
+[2.805580] (-) TimerEvent: {}
+[2.905943] (-) TimerEvent: {}
+[3.006262] (-) TimerEvent: {}
+[3.106588] (-) TimerEvent: {}
+[3.206932] (-) TimerEvent: {}
+[3.307280] (-) TimerEvent: {}
+[3.407661] (-) TimerEvent: {}
+[3.508007] (-) TimerEvent: {}
+[3.608353] (-) TimerEvent: {}
+[3.708669] (-) TimerEvent: {}
+[3.809025] (-) TimerEvent: {}
+[3.909388] (-) TimerEvent: {}
+[4.009694] (-) TimerEvent: {}
+[4.110024] (-) TimerEvent: {}
+[4.210363] (-) TimerEvent: {}
+[4.310698] (-) TimerEvent: {}
+[4.411041] (-) TimerEvent: {}
+[4.511377] (-) TimerEvent: {}
+[4.611665] (-) TimerEvent: {}
+[4.712028] (-) TimerEvent: {}
+[4.812350] (-) TimerEvent: {}
+[4.912705] (-) TimerEvent: {}
+[5.013033] (-) TimerEvent: {}
+[5.113372] (-) TimerEvent: {}
+[5.213706] (-) TimerEvent: {}
+[5.313992] (-) TimerEvent: {}
+[5.414319] (-) TimerEvent: {}
+[5.514639] (-) TimerEvent: {}
+[5.614968] (-) TimerEvent: {}
+[5.715332] (-) TimerEvent: {}
+[5.815721] (-) TimerEvent: {}
+[5.916014] (-) TimerEvent: {}
+[6.016339] (-) TimerEvent: {}
+[6.116680] (-) TimerEvent: {}
+[6.217014] (-) TimerEvent: {}
+[6.317383] (-) TimerEvent: {}
+[6.417839] (-) TimerEvent: {}
+[6.518188] (-) TimerEvent: {}
+[6.618543] (-) TimerEvent: {}
+[6.718918] (-) TimerEvent: {}
+[6.819233] (-) TimerEvent: {}
+[6.919672] (-) TimerEvent: {}
+[7.020077] (-) TimerEvent: {}
+[7.120911] (-) TimerEvent: {}
+[7.221286] (-) TimerEvent: {}
+[7.321656] (-) TimerEvent: {}
+[7.422049] (-) TimerEvent: {}
+[7.522433] (-) TimerEvent: {}
+[7.622814] (-) TimerEvent: {}
+[7.723202] (-) TimerEvent: {}
+[7.823800] (-) TimerEvent: {}
+[7.924205] (-) TimerEvent: {}
+[8.024576] (-) TimerEvent: {}
+[8.124962] (-) TimerEvent: {}
+[8.225268] (-) TimerEvent: {}
+[8.325574] (-) TimerEvent: {}
+[8.425837] (-) TimerEvent: {}
+[8.526167] (-) TimerEvent: {}
+[8.626464] (-) TimerEvent: {}
+[8.726779] (-) TimerEvent: {}
+[8.827127] (-) TimerEvent: {}
+[8.927425] (-) TimerEvent: {}
+[9.027682] (-) TimerEvent: {}
+[9.127984] (-) TimerEvent: {}
+[9.228303] (-) TimerEvent: {}
+[9.328607] (-) TimerEvent: {}
+[9.428963] (-) TimerEvent: {}
+[9.529264] (-) TimerEvent: {}
+[9.629515] (-) TimerEvent: {}
+[9.729862] (-) TimerEvent: {}
+[9.830166] (-) TimerEvent: {}
+[9.930503] (-) TimerEvent: {}
+[10.030805] (-) TimerEvent: {}
+[10.131103] (-) TimerEvent: {}
+[10.231421] (-) TimerEvent: {}
+[10.331741] (-) TimerEvent: {}
+[10.432050] (-) TimerEvent: {}
+[10.532362] (-) TimerEvent: {}
+[10.632650] (-) TimerEvent: {}
+[10.733016] (-) TimerEvent: {}
+[10.833348] (-) TimerEvent: {}
+[10.933706] (-) TimerEvent: {}
+[11.034067] (-) TimerEvent: {}
+[11.058843] (walker_808x) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable walker\x1b[0m\n'}
+[11.134174] (-) TimerEvent: {}
+[11.234540] (-) TimerEvent: {}
+[11.334881] (-) TimerEvent: {}
+[11.435176] (-) TimerEvent: {}
+[11.535533] (-) TimerEvent: {}
+[11.562671] (walker_808x) StdoutLine: {'line': b'[100%] Built target walker\n'}
+[11.600592] (walker_808x) CommandEnded: {'returncode': 0}
+[11.635724] (-) TimerEvent: {}
+[11.652911] (walker_808x) JobProgress: {'identifier': 'walker_808x', 'progress': 'install'}
+[11.669445] (walker_808x) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x'], 'cwd': '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fabrizzio'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib:/home/fabrizzio/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/fabrizzio'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/146/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/146/usr/share/code/code'), ('MANAGERPID', '1821'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3453'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'fabrizzio'), ('JOURNAL_STREAM', '8:53375'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/fabrizzio/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fabrizzio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/fabrizzio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo:@/tmp/.ICE-unix/2035,unix/lenovo:/tmp/.ICE-unix/2035'), ('INVOCATION_ID', 'fb73c1fc12f7492b8bfd4d450690f6da'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9d89dba796.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/fabrizzio/ros2_ws/install/cpp_pubsub/lib/python3.8/site-packages:/home/fabrizzio/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/galactic/lib/python3.8/site-packages::/usr/lib/python3/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fabrizzio/ros2_ws/install/walker_808x:/home/fabrizzio/ros2_ws/install/gazebo_ros_pkgs:/home/fabrizzio/ros2_ws/install/gazebo_ros:/home/fabrizzio/ros2_ws/install/gazebo_msgs:/home/fabrizzio/ros2_ws/install/gazebo_dev:/home/fabrizzio/ros2_ws/install/cpp_pubsub:/opt/ros/galactic:/home/fabrizzio/catkin_ws/devel')]), 'shell': False}
+[11.685020] (walker_808x) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.685537] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/lib/walker_808x/walker\n'}
+[11.689215] (walker_808x) StdoutLine: {'line': b'-- Set runtime path of "/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/lib/walker_808x/walker" to ""\n'}
+[11.689467] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x//launch\n'}
+[11.689564] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x//launch/launch_roomba.py\n'}
+[11.689760] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/package_run_dependencies/walker_808x\n'}
+[11.690044] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/parent_prefix_path/walker_808x\n'}
+[11.690283] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/ament_prefix_path.sh\n'}
+[11.690451] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/ament_prefix_path.dsv\n'}
+[11.690640] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/path.sh\n'}
+[11.690866] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/path.dsv\n'}
+[11.691064] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.bash\n'}
+[11.691227] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.sh\n'}
+[11.691386] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.zsh\n'}
+[11.691571] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.dsv\n'}
+[11.691773] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/package.dsv\n'}
+[11.692048] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/packages/walker_808x\n'}
+[11.692281] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/cmake/walker_808xConfig.cmake\n'}
+[11.692463] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/cmake/walker_808xConfig-version.cmake\n'}
+[11.692649] (walker_808x) StdoutLine: {'line': b'-- Installing: /home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/package.xml\n'}
+[11.695514] (walker_808x) CommandEnded: {'returncode': 0}
+[11.735817] (-) TimerEvent: {}
+[11.836172] (-) TimerEvent: {}
+[11.937440] (-) TimerEvent: {}
+[12.038786] (-) TimerEvent: {}
+[12.140604] (-) TimerEvent: {}
+[12.163426] (walker_808x) JobEnded: {'identifier': 'walker_808x', 'rc': 0}
+[12.164194] (-) EventReactorShutdown: {}
