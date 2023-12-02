@@ -1,0 +1,10 @@
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/install/strip.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/install/local.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/edit_cache.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/test.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/install.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/list_install_components.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/rebuild_cache.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/walker.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/walker_808x_uninstall.dir
+/home/fabrizzio/ros2_ws/src/walker_808x/build/walker_808x/CMakeFiles/uninstall.dir

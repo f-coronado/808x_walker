@@ -1,0 +1,73 @@
+fabrizzio@4f9d3146093d:ros2_ws$ ros2 launch walker_808x launch_roomba.py
+[INFO] [launch]: All log files can be found below /home/fabrizzio/.ros/log/2023-11-29-22-16-11-728641-4f9d3146093d-4154
+[INFO] [launch]: Default logging verbosity is set to INFO
+urdf_file_name : turtlebot3_burger.urdf
+urdf_file_name : turtlebot3_burger.urdf
+urdf_file_name : turtlebot3_burger.urdf
+[INFO] [walker-1]: process started with pid [4155]
+[INFO] [gzserver-2]: process started with pid [4157]
+[INFO] [gzclient-3]: process started with pid [4159]
+[INFO] [robot_state_publisher-4]: process started with pid [4161]
+[INFO] [spawn_entity.py-5]: process started with pid [4163]
+[ERROR] [walker-1]: process has died [pid 4155, exit code 127, cmd '/home/fabrizzio/ros2_ws/install/walker_808x/lib/walker_808x/walker --ros-args -r __node:=walker'].
+[walker-1] /home/fabrizzio/ros2_ws/install/walker_808x/lib/walker_808x/walker: symbol lookup error: /home/fabrizzio/ros2_ws/install/walker_808x/lib/walker_808x/walker: undefined symbol: _ZN6rclcpp19QOSEventHandlerBase15add_to_wait_setEP14rcl_wait_set_t
+[robot_state_publisher-4] [INFO] [1701314173.756863387] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-4] [INFO] [1701314173.756974430] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1701314173.756991278] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-4] [INFO] [1701314173.757000627] [robot_state_publisher]: got segment caster_back_link
+[robot_state_publisher-4] [INFO] [1701314173.757008420] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-4] [INFO] [1701314173.757016714] [robot_state_publisher]: got segment wheel_left_link
+[robot_state_publisher-4] [INFO] [1701314173.757025306] [robot_state_publisher]: got segment wheel_right_link
+[spawn_entity.py-5] [INFO] [1701314174.035041705] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-5] [INFO] [1701314174.035496395] [spawn_entity]: Loading entity XML from file /opt/ros/humble/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+[spawn_entity.py-5] [INFO] [1701314174.036339264] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-5] [INFO] [1701314174.036824526] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-5] Traceback (most recent call last):
+[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/import_type_support_impl.py", line 46, in import_type_support
+[spawn_entity.py-5]     return importlib.import_module(module_name, package=pkg_name)
+[spawn_entity.py-5]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[spawn_entity.py-5]     return _bootstrap._gcd_import(name[level:], package, level)
+[spawn_entity.py-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[spawn_entity.py-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[spawn_entity.py-5]   File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+[spawn_entity.py-5] ModuleNotFoundError: No module named 'gazebo_msgs.gazebo_msgs_s__rosidl_typesupport_c'
+[spawn_entity.py-5] 
+[spawn_entity.py-5] During handling of the above exception, another exception occurred:
+[spawn_entity.py-5] 
+[spawn_entity.py-5] Traceback (most recent call last):
+[spawn_entity.py-5]   File "/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py", line 372, in <module>
+[spawn_entity.py-5]     main()
+[spawn_entity.py-5]   File "/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py", line 367, in main
+[spawn_entity.py-5]     exit_code = spawn_entity_node.run()
+[spawn_entity.py-5]   File "/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py", line 228, in run
+[spawn_entity.py-5]     success = self._spawn_entity(entity_xml, initial_pose, spawn_service_timeout)
+[spawn_entity.py-5]   File "/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py", line 276, in _spawn_entity
+[spawn_entity.py-5]     client = self.create_client(SpawnEntity, '%s/spawn_entity' % self.args.gazebo_namespace)
+[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1413, in create_client
+[spawn_entity.py-5]     check_is_valid_srv_type(srv_type)
+[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/type_support.py", line 51, in check_is_valid_srv_type
+[spawn_entity.py-5]     check_for_type_support(srv_type)
+[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/type_support.py", line 29, in check_for_type_support
+[spawn_entity.py-5]     msg_or_srv_type.__class__.__import_type_support__()
+[spawn_entity.py-5]   File "/home/fabrizzio/ros2_ws/install/gazebo_msgs/lib/python3.8/site-packages/gazebo_msgs/srv/_spawn_entity.py", line 355, in __import_type_support__
+[spawn_entity.py-5]     module = import_type_support('gazebo_msgs')
+[spawn_entity.py-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/import_type_support_impl.py", line 48, in import_type_support
+[spawn_entity.py-5]     raise UnsupportedTypeSupport(pkg_name)
+[spawn_entity.py-5] rosidl_generator_py.import_type_support_impl.UnsupportedTypeSupport: Could not import 'rosidl_typesupport_c' for package 'gazebo_msgs'
+[ERROR] [spawn_entity.py-5]: process has died [pid 4163, exit code 1, cmd '/home/fabrizzio/ros2_ws/install/gazebo_ros/lib/gazebo_ros/spawn_entity.py -entity burger -file /opt/ros/humble/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf -x -2.0 -y -0.5 -z 0.01 --ros-args'].
+[gzserver-2] ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+[gzserver-2] ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+[gzserver-2] ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+[gzserver-2] ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[gzserver-2] ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+[gzserver-2] ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+[gzserver-2] AL lib: (EE) ALCplaybackAlsa_open: Could not open playback device 'default': No such file or directory
+[gzserver-2] gzserver: symbol lookup error: /home/fabrizzio/ros2_ws/install/gazebo_ros/lib/libgazebo_ros_node.so: undefined symbol: _ZN6rclcpp11NodeOptionsC1E19rcutils_allocator_t
+[ERROR] [gzserver-2]: process has died [pid 4157, exit code 127, cmd 'gzserver /opt/ros/humble/share/turtlebot3_gazebo/worlds/turtlebot3_house.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_state_publisher-4] [INFO] [1701314177.498011833] [rclcpp]: signal_handler(signum=2)
+[ERROR] [gzclient-3]: process has died [pid 4159, exit code -2, cmd 'gzclient'].
+[INFO] [robot_state_publisher-4]: process has finished cleanly [pid 4161]
+    

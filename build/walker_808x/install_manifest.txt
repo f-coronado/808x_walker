@@ -1,0 +1,17 @@
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/lib/walker_808x/walker
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x//launch/launch_roomba.py
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/package_run_dependencies/walker_808x
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/parent_prefix_path/walker_808x
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/ament_prefix_path.sh
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/ament_prefix_path.dsv
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/path.sh
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/environment/path.dsv
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.bash
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.sh
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.zsh
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/local_setup.dsv
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/package.dsv
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/ament_index/resource_index/packages/walker_808x
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/cmake/walker_808xConfig.cmake
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/cmake/walker_808xConfig-version.cmake
+/home/fabrizzio/ros2_ws/src/walker_808x/install/walker_808x/share/walker_808x/package.xml
