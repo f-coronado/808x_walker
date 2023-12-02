@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-#find_package(walker_808x REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(gazebo_msgs REQUIRED)
 
@@ -27,10 +26,6 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-#rosidl_target_interfaces(walker
-#${PROJECT_NAME} "rosidl_typesupport_cpp"
-#)
-
 install (DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}/
 )
@@ -46,5 +41,4 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-#ament_export_dependencies(rosidl_default_runtime)
 ament_package()

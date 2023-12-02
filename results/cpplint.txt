@@ -1,0 +1,2 @@
+fabrizzio@fabrizzio-lenovo:~/ros2_ws/src/walker_808x$ cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" )
+Done processing ./src/walk_algorithm.cpp

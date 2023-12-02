@@ -15,7 +15,7 @@
 """
 @file launch_roomba.py.
 
-@brief This launch file spawns a robot in a world and starts a bag recording
+@brief This launch file spawns a robot in a world and allows for bag recording
 @date 11/26/2023
 @copyright Copyright (c) 2023
 """
@@ -46,8 +46,7 @@ def generate_launch_description():
 
         ExecuteProcess(
             condition=IfCondition(LaunchConfiguration(['record_bag'])),
-            cmd=['ros2', 'bag', 'record', '-a', '-x /camera.+ ',
-                 LaunchConfiguration('bag_filepath')],
+            cmd=['ros2', 'bag', 'record', '-a', '-x /camera.+'],
             output='screen'
             # output result to terminal
         ),
@@ -62,7 +61,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([
                 os.path.join(
                     get_package_share_directory('turtlebot3_gazebo'), 'launch'),
-                      '/turtlebot3_house.launch.py'
+                      '/turtlebot3_world.launch.py'
             ])
         )
     ])
